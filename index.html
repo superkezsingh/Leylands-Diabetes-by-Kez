@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Management Chatbox</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chatbox">
+        <div class="chat-log" id="chat-log">
+            <div class="chat-message">
+                <p>Welcome! Let's start the diabetes management review.</p>
+                <p>Could you provide the patient’s HbA1c level, eGFR, and any other relevant comorbidities?</p>
+            </div>
+        </div>
+        <input type="text" id="chat-input" placeholder="Type your answer here..." onkeypress="sendMessage(event)">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
