@@ -30,6 +30,9 @@ body {
     margin-bottom: 10px;
     padding: 8px;
     border-radius: 5px;
+}
+
+.chat-message.bot {
     background-color: #e8e8e8;
 }
 
